@@ -1,0 +1,79 @@
+<!--Creá 6 banderas, una debajo de la otra, usando divs
+Las banderas deben 300px de ancho y 200px de alto
+Las banderas deben estar separadas entre sí por un margen
+Las banderas deben estar centradas horizontalmente respecto a la pantalla
+Elegí banderas con franjas horizontales o verticales (por ejemplo Argentina, México, Francia, Alemania). 
+Para las franjas usá divs también, por ejemplo:
+<div class="bandera-argentina">
+  <div class="franja-celeste"></div>
+  <div class="franja-blanca"></div>
+  <div class="franja-celeste"></div>
+</div> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ej3 Banderas</title>
+    <link rel="stylesheet" href="banderas.css">
+</head>
+
+<body>
+    <div class="horizontales"><!-- ARGENTINA-->
+        <div class="celesteArg"></div>
+        <div class="blancoArg">
+            <img class="solArgentina" src="https://razafolklorica.com/wp-content/uploads/2015/11/Sol-de-Mayo1.jpg">
+        </div>
+        <div class="celesteArg"></div>
+    </div>
+
+    <div class="horizontales"><!--COLOMBIA-->
+        <div class="amarilloCol"></div>
+        <div class="azulCol"></div>
+        <div class="rojoCol"></div>
+    </div>
+
+    <div class="verticales"><!--FRANCIA-->
+        <div class="azulFran"></div>
+        <div class="blancoVer"></div>
+        <div class="rojoFran"></div>
+    </div>
+
+    <div class="verticales"><!--MEXICO-->
+        <div class="verdeMex"></div>
+        <div class="blancoVer">
+            <img class="escudoMex"
+                src="https://www.mexicanisimo.com.mx/wp-content/uploads/2017/02/Coat_of_arms_of_Mexico_1916-1934.svg_-711x640.png">
+        </div>
+        <div class="rojoMex"></div>
+    </div>
+
+    <div class="chile">
+        <section class="ver">
+            <div class="azulChi">
+                <img class="estrellaChi" src="https://3.bp.blogspot.com/_g34zRx-PqOs/SGUcoK9XGrI/AAAAAAAAAMY/j3LfNMifPeU/s320/600px-Naval_Jack_of_Chile_svg.png">
+            </div>
+            <div class="blancoChi"></div>
+        </section>
+       
+        <section class="hor">
+            <div class="rojoChi"></div>
+        </section>
+    </div>
+
+
+
+    <div class="sweden">
+        <section class="amarilloVerSwe"></section>
+        <section class="amarilloHorSwe"></section>
+        <section class="amarilloVerSwe2"></section>
+
+    </div>
+
+</body>
+
+</html>

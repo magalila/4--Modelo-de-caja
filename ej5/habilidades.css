@@ -1,0 +1,63 @@
+body{
+    background: linear-gradient(to right bottom, #0bd2c7, #00cfc9, #00cccb, #00c9cd, #00c6ce, #00c4d0, #00c3d1, #00c1d3, #00c1d6, #00c0d9, #00c0dc, #03bfdf);
+    background-repeat:no-repeat;/*para que no se repita en dos veces*/
+    min-height: 100vh; /*que ocupe minimo el 100% del alto de la pantalla*/
+    overflow: hidden;/*evita el scroll*/
+}
+.cajaPrincipal{
+    width: 500px;/*si pongo solo el ancho, el alto queda flexible*/
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin: 150px auto 20px auto;/*deja la caja al medio*/
+    padding: 25px;
+    /*margin-top: 200px;  <<<<<<<<POR QUE NO TOMA???>>>>>>>>*/
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.grosorSubtitulo{
+    font-weight: 400;
+    color: #242F4D;
+}
+h2{
+    margin: 10px 0px 15px;
+    padding-left: 8px;
+}
+h3{
+    font-size: 16px;
+    color: #27314E;
+    margin: 8px, 0px;    
+}
+h4{
+    font-size: 14px;
+    color: #6F7489;
+    margin: 0 ;
+}
+article{/*debe coincidir con el border left*/
+    padding: 20px;
+    margin: 10px;/*separacion entre cajas*/
+    border: 2px solid #E7ECFE;
+    border-radius: 5px;
+}
+.rosado{
+    border-left: 4px solid #F85E99;/*el nro es el espesor, solid es el tipo de linea */
+}
+.lila{
+    border-left: 4px solid #D788FF;
+}
+.naranja{
+    border-left: 4px solid #FFA279;
+}
+.tituloPrincipal{
+    display: inline-block;
+}
+.viewContainer{
+    padding-left: 210px;
+    display: inline-block;
+}
+.viewBoton{
+    border: 1.5px solid  #E7ECFE;
+    padding: 10px 19px ;
+    color: #6F7489;
+    border-radius: 5px;
+}

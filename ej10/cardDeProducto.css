@@ -1,0 +1,85 @@
+body{
+    background-color: #EEEEEE;
+}
+.containerPrincipal{
+    width: 600px;
+    height: 900px;
+    margin: 50px auto;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 20px;/*por que no pone en toda la caja*/
+    background-color: #CB2140;
+}
+
+.casco{
+    width: 200px;
+    padding: 50px 200px;
+    
+}
+.conteinerRojo{
+    height: 200px;
+}
+.containerNegro{
+    height: 572px;
+    background-color: #0C1E2D;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+    color:#ffff;
+    margin: 0 auto 30px;
+}
+.bordeRojo{
+    border: 1px solid #C8203F;
+    margin: 0 7px;
+    color: #ffff;
+    width:auto;
+    float: left;
+    border-radius: 100px;
+    padding:0 10px;
+    font-size:10px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+p{
+    margin: 5px 0;
+}
+.bordes{
+    margin: 0 160px;
+}
+h4{
+    font-family: "Open Sans", sans-serif;
+    color: #ffff;
+    text-align: center;
+    font-size: 14PX;
+   
+}
+.etiqueta4{
+    padding-top: 40px;
+}
+.parrafo{
+    padding: 0 50px;
+    font-family: "Open Sans", sans-serif;
+    color: #ffff;
+    text-align: center;
+}
+.precio{
+    font-family: "Open Sans", sans-serif;
+    color: #ffff;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.comprar{
+    width: 190px;
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    color: #ffff;
+    background-color: #CB2140;
+    border-radius: 100px;
+}

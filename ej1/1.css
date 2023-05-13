@@ -1,0 +1,64 @@
+
+body{
+    background-color: #F8F9FA;
+}   
+
+ul{
+    list-style: none;
+    margin-right:10px;
+    margin-left: 0px;
+}
+
+
+.cajaPrincipal{
+    width: 350px; /*ancho caja*/
+    height: 316px; /*alto caja*/
+    background-color: #FFFFFF;
+    align-items: center;
+    margin: 400px 325px ;
+    box-shadow: 0 10px 20px -7px rgba(160,44,219,0.07);  
+    /*box-sizing: border-box;*/ 
+}
+.img{
+    width: 55px;
+    height: 55px;
+    padding: 40px 30px 10px 0px;
+}
+.principal{
+    list-style: none;
+    padding: 5px 45px 5px 40px;/*top right bottom left*/
+    font-family: 'Mulish', sans-serif;
+    font-size: 12px;
+    margin-right:10px;
+    margin-left: 0px;
+    
+}
+.titulo{
+    font-weight: bold;
+    font-size: 18px;
+    margin:0px;
+}
+.login{
+    margin: 0px;
+}
+.loginLink{
+    color: #7994EB;
+    text-decoration:none;
+}
+.cajaBoton{
+    padding-top: 5px;
+    margin-left: 40px;
+    width:118px;
+    height:26px;
+    background: linear-gradient(70deg, #569EE5, #578CE4, #567CE4); 
+    border-radius: 3px;
+    text-align: center;
+    justify-content: center;
+}
+.linkSignUp{
+    justify-content: center;
+    color: #FFFFFF;
+    text-decoration:none;
+    font-family: 'Mulish', sans-serif;
+    font-size: 12px;
+}

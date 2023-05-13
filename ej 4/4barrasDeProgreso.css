@@ -1,0 +1,39 @@
+.barra{
+    width: 500px;
+    height: 30px;
+    background-color: #EBEBEA;
+    margin-top: 20px;
+    border-radius: 100px;
+    border:#EBEBEA;
+    padding: 3px;
+}
+.progreso10{
+    width: 10%;
+    height: 30px;
+    background-color: #FF55BB;
+    border-radius: 100px;
+}
+.progreso25{
+    width: 25%;
+    height: 30px;
+    background-color: #FF55BB;
+    border-radius: 100px;
+}
+.progreso50{
+    width: 50%;
+    height: 30px;
+    background-color: #FF55BB;
+    border-radius: 100px;
+}
+.progreso75{
+    width: 75%;
+    height: 30px;
+    background-color: #FF55BB;
+    border-radius: 100px;
+}
+.progreso90{
+    width: 90%;
+    height: 30px;
+    background-color: #FF55BB;
+    border-radius: 100px;
+}
